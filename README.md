@@ -1,9 +1,30 @@
-# hybrid-enterprise-lab
-Simulated hybrid enterprise lab environment with on-prem Active Directory, Azure AD Connect, Microsoft 365 services, backup, SCCM, DNS, DHCP, and more.
+# Hybrid Enterprise IT Lab Environment
+
+This project simulates a fully virtualized hybrid enterprise IT environment combining on-premises infrastructure with cloud services.
+
+---
+
+## Overview
+
+The lab includes an on-premises Active Directory Domain Services (AD DS) environment with DNS, DHCP, SCCM, and Veeam Backup & Replication servers. It is integrated with Microsoft 365 and Azure AD via Azure AD Connect for identity synchronization and cloud management.
+
+---
+
+## Purpose
+
+Designed to replicate the core infrastructure typically found in mid-to-large organizations, this lab provides hands-on experience with:
+
+- User and group management in Active Directory
+- Device management using Microsoft Endpoint Manager (Intune and SCCM)
+- Hybrid identity synchronization with Azure AD Connect
+- Cloud collaboration and licensing in Microsoft 365 (Teams, SharePoint, Exchange)
+- Backup and recovery processes with Veeam B&R
+- Core network services (DNS, DHCP)
+
+---
+
+## Setup
+
+All components run as virtual machines connected via an internal virtual network, enabling full communication and service integration.
 
 
-This project is a fully virtualized hybrid enterprise IT lab. It includes an on-premises environment with Active Directory Domain Services (AD DS), DNS, DHCP, SCCM, and Veeam Backup, fully integrated with Microsoft 365 and Azure AD via Azure AD Connect. 
-
-The goal is to replicate the type of environment commonly found in mid-to-large businesses, and gain hands-on experience with critical technologies such as user management, identity synchronization, endpoint management, and cloud services integration.
-
-Built entirely with virtual machines, this lab provides a safe and flexible space to learn, practice, and demonstrate IT support, sysadmin, and cloud admin skills.
