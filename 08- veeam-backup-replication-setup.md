@@ -39,7 +39,7 @@
 - Created a new **File Share Backup Job**:
   - Job Name: `FS-1 FileShare`.
   - Selected the `Share` folder from `FS-1`.
-  - Targeted the local repository (`FS1-FileShare-Repo`).
+  - Targeted the local repository.
   - Schedule: Configured for daily incremental backups
 
   <img width="1404" height="45" alt="image" src="https://github.com/user-attachments/assets/89ce0deb-011f-4354-aed5-d6e90b3bea7c" />
